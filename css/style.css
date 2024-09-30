@@ -1,0 +1,195 @@
+/*Q.2) a-b-c-d*/
+body {
+   color: #e0e0e0;
+   background-image: url(../assets/images/dark-wood2.jpg);
+   font-family: Arial, Verdana, sans-serif;
+   margin: 0;
+   display: block;
+}
+
+.indented {
+   text-indent: 20px;
+}
+
+/*3. Style the <div> element with class “container” (it’s the main division that contains the entire HTML elements inside the body): a. The width value can be 950px You can also use max-width: 1300px or any other value (Up to you) but using 950px is better for this lab-work because the width of the banner image
+b. 5px margin from top and bottom*/
+.container {
+   width: 950px;
+   margin: 5px auto;
+   background-color: #2a3d45;
+   min-height: 100vh;
+}
+
+/*4. Style any element with class value of “content”, in other word target the class named “content”:
+a. The line height (of the text) should be 1.4em
+b. 10px padding to all the sides*/
+
+.content {
+   line-height: 1.4em;
+   padding: 10px;
+}
+
+/*5. Style the “header, nav, and footer” elements to share the following:*/
+header,
+nav,
+footer {
+   background-color: #344e5c;
+   color: #d1e7e0;
+}
+
+/*6. Style the unordered list element <ul> which is inside <nav> element (styling only a ul child of any nav element):*/
+nav > ul {
+   display: flex; /*Q7) a)*/
+   margin: 0;
+   padding: 5px;
+   list-style: none;
+}
+
+/*7. Style the list items <li> of the main navigation (nav), or inside the nav element:*/
+
+nav li {
+   margin-right: 40px;
+   text-transform: uppercase;
+}
+
+/*Q8) a-b-c-d*/
+
+nav a:link {
+   color: rgb(98, 98, 208);
+}
+
+nav a:visited {
+   color: rgb(74, 136, 74);
+}
+
+nav a:hover {
+   color: rgb(230, 104, 104);
+}
+
+nav a:active {
+   color: rgb(109, 104, 104);
+}
+
+/*Q.9)*/
+
+a {
+   color: rgb(179, 97, 218);
+   text-decoration: none;
+}
+
+/*Q.10*/
+h1,
+h2,
+h3 {
+   margin: 10px;
+   text-transform: uppercase;
+}
+
+h1 {
+   color: #f5b041;
+}
+
+h2 {
+   color: #7dcea0;
+}
+
+h3 {
+   color: #e8dab2;
+}
+
+/*Q.11*/
+.img-center {
+   display: block;
+   margin: 5px auto;
+   padding: 2px;
+}
+
+/*Q.12)*/
+audio,
+video {
+   display: block;
+   margin: 10px auto;
+}
+
+/*Q.13)*/
+
+table {
+   width: 800px;
+   margin: 10px auto;
+}
+
+/*Q.14)*/
+
+caption,
+th,
+td {
+   border: 1px solid #4f6b75;
+   padding: 2px 5px;
+   background-color: #3e5a64;
+   color: #f0f0f0;
+}
+
+/*Q.15)*/
+th,
+tfoot td {
+   background-color: #1f2f36;
+   color: #aeeeee;
+   text-transform: uppercase;
+}
+
+/*Q.16)*/
+td {
+   font-weight: bold;
+}
+
+tfoot {
+   text-align: center;
+}
+
+/*Q.17*/
+footer {
+   font-size: 80%;
+   text-align: center;
+}
+
+/*Q.18)*/
+iframe {
+   display: block;
+   margin: 10px auto;
+}
+
+/*Q.19)*/
+fieldset {
+   width: 500px;
+   margin: 20px auto;
+   border: 1px solid #7dcea0;
+   background-color: #344e5c;
+   color: #d1e7e0;
+}
+
+/*Q.20)*/
+legend {
+   font-style: italic;
+   color: #f5b041;
+   background-color: #2a3d45;
+   margin: 0 10px;
+   padding: 0 5px;
+   border: 2px solid #7dcea0;
+   border-radius: 8px;
+}
+
+/*Q.21)*/
+button[type='submit'] {
+   border: 2px solid #7dcea0;
+   padding: 5px;
+   background-color: #f5b041;
+   color: #2a3d45;
+   transition: background-color 0.3s ease;
+}
+
+/*Q.22*/
+button[type='submit']:hover {
+   color: #ffffff;
+   background-color: #58b0a6;
+   cursor: pointer;
+}
