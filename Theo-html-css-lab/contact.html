@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>About</title>
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <img src="assets/images/su_banner.gif" alt="su_banner" />
+            <nav id="main-nav">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="services.html">Our Services</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+               </ul>
+            </nav>
+         </header>
+         <main class="content">
+            <form action="#"></form>
+            <fieldset>
+               <legend>Personal Information</legend>
+               <label for="first_name">First Name*</label>
+               <input type="text" name="user_first" id="first_name" maxlength="25" required />
+               <br />
+               <label for="last_name">Last Name*</label>
+               <input type="text" name="user_last" id="last_name" maxlength="25" required />
+               <br />
+               <label for="email">Email*</label>
+               <input type="email" name="user_mail" id="email" maxlength="35" required /><br />
+               <p>Please select the music genre(s) that you like:</p>
+               <input type="checkbox" name="classic" id="Classic" /><label for="Classic"
+                  >Classic</label
+               ><br />
+               <input type="checkbox" name="jazz" id="Jazz" /><label for="Jazz">Jazz</label><br />
+               <input type="checkbox" name="blues" id="Blues" /><label for="Blues">Blues</label
+               ><br />
+               <input type="checkbox" name="instrumental" id="Instrumental" /><label
+                  for="Instrumental"
+                  >Instrumental</label
+               >
+            </fieldset>
+            <fieldset>
+               <legend>Your Message</legend>
+               <label for="hear">How did you hear about us ?</label>
+               <select name="about" id="hear">
+                  <option value="">Our website</option>
+                  <option value="">Friends</option>
+                  <option value="">Tv Adv</option>
+                  <option value="">Other</option></select
+               ><br />
+               <br />
+               <label for="Yes">Yes</label>
+               <input type="radio" name="choice" id="Yes" checked />
+               <label for="No">No</label>
+               <input type="radio" name="choice" id="No" />
+               <label for="Maybe">Maybe</label>
+               <input type="radio" name="choice" id="Maybe" /><br /><br />
+               <label for="request">Your request :</label><br />
+               <textarea name="txt" id="request"></textarea><br /><br />
+               <label for="email_update">Sign me up for email update</label>
+               <input type="checkbox" name="sin_up" id="email_update" checked /><br /><br />
+               <div class="button">
+                  <button type="submit">submit</button>
+               </div>
+            </fieldset>
+         </main>
+         <footer>
+            <p>
+               Copyright © 2023 ILAC and EFREI Paris – HTML-CSS major lab-work - created by: Théo
+               BRACQUEMART - All rights reserved
+            </p>
+         </footer>
+      </div>
+   </body>
+</html>
